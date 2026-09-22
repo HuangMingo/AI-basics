@@ -122,7 +122,7 @@ Hai trường hợp hợp lệ:
 assert round(calculate_bmi(57, 1.67), 2) == 20.44
 assert round(calculate_bmi(70, 1.75), 2) == 22.86
 ```
-
+assert expression[, assertion_message]: thực hiện biểu thức, nếu có lỗi thì trả về AssertionError khi điều kiện kiểm tra là sao
 Kiểm tra trường hợp không hợp lệ:
 
 ```python
@@ -163,12 +163,19 @@ Tạo ít nhất 5 test case, trong đó có ít nhất 2 trường hợp không
 
 Bạn hoàn thành Buổi 1 khi:
 
-- [ ] Chạy được chương trình từ tệp `bmi.py`.
-- [ ] Giải thích được Input, Process và Output của bài toán.
-- [ ] Giải thích được `input()`, `float()`, `**`, `raise` và `try/except`.
-- [ ] Chương trình từ chối cân nặng hoặc chiều cao không hợp lệ.
-- [ ] Có ít nhất 5 test case và tất cả đều chạy đúng.
-- [ ] Tự giải thích được phần mã mình viết, không chỉ sao chép.
+- [x] Chạy được chương trình từ tệp `bmi.py`.
+- [x] Giải thích được Input, Process và Output của bài toán.
+    input: weight và height
+    process: calculate_bmi và classify_bmi
+    output: bmi, classify_bmi(bmi)
+- [x] Giải thích được `input()`, `float()`, `**`, `raise` và `try/except`.
+    input(): để nhập dữ liệu dạng chuỗi
+    float(): chuyển từ string sang float
+    raise: chủ động phát inh ngoại lệ và dừng chương trình
+    try/except: thực thi chương trình, nếu có lỗi thì trả về ngoại lệ
+- [x] Chương trình từ chối cân nặng hoặc chiều cao không hợp lệ.
+- [x] Có ít nhất 5 test case và tất cả đều chạy đúng.
+- [x] Tự giải thích được phần mã mình viết, không chỉ sao chép.
 
 ## 10. Câu hỏi tự kiểm tra
 
