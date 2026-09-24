@@ -306,13 +306,17 @@ Bạn hoàn thành Buổi 2 khi:
       float la so thuc    f = 4.5
       str la kieu chuoi c = "An"
       bool la True hoac False
-- [ ] Giải thích được sự khác nhau giữa `=`, `==` và `!=`.
-- [ ] Sử dụng đúng `and`, `or`, `not` trong điều kiện.
-- [ ] Viết được hàm `classify_score(score)` bằng `if/elif/else`.
-- [ ] Chương trình từ chối điểm ngoài khoảng và dữ liệu không chuyển được thành số.
-- [ ] Có ít nhất 5 test case, gồm các giá trị bình thường, ranh giới và không hợp lệ.
-- [ ] Giải thích được vì sao không nên luôn so sánh số thực bằng `==`.
-- [ ] Tự giải thích được phần mã mình viết.
+- [x] Giải thích được sự khác nhau giữa `=`, `==` và `!=`.
+    = de gan gia tri
+    == de so sanh 2 phan tu 
+    != de kiem tra co khac nhau khong
+- [x] Sử dụng đúng `and`, `or`, `not` trong điều kiện.
+- [x] Viết được hàm `classify_score(score)` bằng `if/elif/else`.
+- [x] Chương trình từ chối điểm ngoài khoảng và dữ liệu không chuyển được thành số.
+- [x] Có ít nhất 5 test case, gồm các giá trị bình thường, ranh giới và không hợp lệ.
+- [x] Giải thích được vì sao không nên luôn so sánh số thực bằng `==`. 
+    do co so thuc co duoi rat nho dan den khong the so sanh bang nhau duoc
+- [x] Tự giải thích được phần mã mình viết.
 
 ## 12. Câu hỏi tự kiểm tra
 
