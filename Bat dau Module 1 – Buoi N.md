@@ -10,6 +10,7 @@ Khi nhận được tin nhắn `Bat dau Module 1 – Buoi N`, hãy thay `N` bằ
 4. Trình bày kiến thức trọng tâm và ví dụ minh họa.
 5. Cung cấp bài thực hành có hướng dẫn.
 6. Tạo tiêu chí hoàn thành và cách tự kiểm chứng.
+  Chỉ đánh dấu hoàn thành khi bài làm là đúng
 7. Đưa ra câu hỏi tự kiểm tra.
 8. Giao bài tập về nhà.
 

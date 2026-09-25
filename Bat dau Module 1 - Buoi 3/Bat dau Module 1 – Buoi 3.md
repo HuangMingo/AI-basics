@@ -9,12 +9,12 @@
 
 Hãy tự trả lời trước khi xem nội dung mới:
 
-1. `input()` luôn trả về kiểu dữ liệu gì?
-2. `=` khác `==` như thế nào?
+1. `input()` luôn trả về kiểu dữ liệu gì?    string
+2. `=` khác `==` như thế nào? gan gia tri va so sanh
 3. Điều kiện `score < 0 or score > 10` có ý nghĩa gì?
-4. Vì sao `0.1 + 0.2 == 0.3` có thể trả về `False`?
-5. `try/except` trong `student_grade.py` giúp chương trình xử lý tình huống nào?
-6. Hàm `classify_score(score)` nhận gì và trả về gì?
+4. Vì sao `0.1 + 0.2 == 0.3` có thể trả về `False`? vi python su dung kieu nhi phan de luu float do do chi hien thi huu han cac so 
+5. `try/except` trong `student_grade.py` giúp chương trình xử lý tình huống nào? xu li loi khi score nam ngoai vung du lieu cho phep
+6. Hàm `classify_score(score)` nhận gì và trả về gì? nhan float va tra ve string
 
 Chỉ tiếp tục khi bạn có thể tự giải thích ít nhất 5/6 câu.
 
@@ -315,15 +315,22 @@ Sau đó kiểm tra:
 
 Bạn hoàn thành Buổi 3 khi:
 
-- [ ] Giải thích được khi nào dùng `for` và khi nào dùng `while`.
-- [ ] Dự đoán đúng các giá trị do `range()` tạo ra.
-- [ ] Phân biệt được `break` và `continue`.
-- [ ] Viết được hàm có tham số và `return`.
-- [ ] Giải thích được phạm vi của biến cục bộ.
-- [ ] Tính được `mean`, `min`, `max` bằng vòng lặp, không dùng hàm dựng sẵn tương ứng.
-- [ ] Chương trình từ chối danh sách rỗng bằng `ValueError`.
-- [ ] Có ít nhất 5 test case, gồm trường hợp bình thường, biên và không hợp lệ.
-- [ ] Tự giải thích được phần mã mình viết.
+- [x] Giải thích được khi nào dùng `for` và khi nào dùng `while`.
+  dung for khi biet truoc so lan lap
+  dung while khi chua biet so lan lap
+- [x] Dự đoán đúng các giá trị do `range()` tạo ra.
+      range(n): tu 0 -> n - 1
+- [x] Phân biệt được `break` và `continue`.
+  break de dung vong lap
+  continue bo qua index hien tai va duyet tiep index tiep theo
+- [x] Viết được hàm có tham số và `return`.
+- [x] Giải thích được phạm vi của biến cục bộ.
+  Bien cuc bo duoc tao ben trong ham va khong the truy cap duoc tu ben ngoai
+  Bien global co the truy cap duoc tu bat ki vi tri nao
+- [x] Tính được `mean`, `min`, `max` bằng vòng lặp, không dùng hàm dựng sẵn tương ứng.
+- [x] Chương trình từ chối danh sách rỗng bằng `ValueError`.
+- [x] Có ít nhất 5 test case, gồm trường hợp bình thường, biên và không hợp lệ.
+- [x] Tự giải thích được phần mã mình viết.
 
 ## 13. Câu hỏi tự kiểm tra
 
